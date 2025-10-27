@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate - Helping Hands Foundation</title>
+  <link rel="stylesheet" href="hdonation.css">
+</head>
+<body>
+
+  <header>
+    <h1>Donate to Helping Hands Foundation</h1>
+    <nav>
+      <ul>
+        <li><a href="hh.html">Home</a></li>
+        <li><a href="#why-donate">Why Donate?</a></li>
+        <li><a href="#donation-form">Make a Donation</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Donation Banner -->
+  <section class="donation-banner">
+    <div class="banner-content">
+      <h2>Your Support Changes Lives 💚</h2>
+      <p>Be the reason someone smiles today — every rupee you donate helps us bring education, healthcare, and hope to those in need.</p>
+      <a href="#donation-form"><button>Contribute Now</button></a>
+    </div>
+  </section>
+
+  <!-- Why Donate -->
+  <section id="why-donate">
+    <h2>Why Your Donation Matters</h2>
+    <p>Helping Hands Foundation relies on generous supporters like you to fund our initiatives in education, healthcare, and community development. Every donation creates a ripple of change that uplifts entire communities.</p>
+
+    <div class="donate-impact">
+      <div class="impact-card">
+        <img src="img/support.jpeg" alt="Education Support">
+        <h3>📘 Support Education</h3>
+        <p>Help children access quality education and learning resources for a brighter future.</p>
+      </div>
+      <div class="impact-card">
+        <img src="img/halth.jpeg" alt="Healthcare">
+        <h3>🏥 Healthcare Access</h3>
+        <p>Provide essential medical care and health awareness to underprivileged families.</p>
+      </div>
+      <div class="impact-card">
+        <img src="img/em.jpeg" alt="Empowerment">
+        <h3>🤝 Empower Communities</h3>
+        <p>Support women and youth programs that create long-term self-sustainability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Form -->
+  <section id="donation-form">
+    <h2>Make a Donation</h2>
+    <form action="#" method="post">
+      
+      <fieldset>
+        <legend>Choose Donation Amount</legend>
+        <div class="amount-options">
+          <label><input type="radio" name="amount" value="500"> ₹500</label>
+          <label><input type="radio" name="amount" value="1000"> ₹1000</label>
+          <label><input type="radio" name="amount" value="2500"> ₹2500</label>
+          <label><input type="radio" name="amount" value="custom"> Other:</label>
+          <input type="number" name="customAmount" placeholder="Enter amount">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Information</legend>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message (Optional):</label>
+        <textarea id="message" name="message" rows="4"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment Method</legend>
+        <label><input type="radio" id="upi" name="payment" value="UPI" required> UPI</label>
+        <label><input type="radio" id="card" name="payment" value="Card"> Credit/Debit Card</label>
+        <label><input type="radio" id="netbanking" name="payment" value="NetBanking"> Net Banking</label>
+      </fieldset>
+
+      <button type="submit">Donate Now</button>
+    </form>
+
+    <p id="thankyou" class="hidden">💖 Thank you for your generous contribution!</p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Need Help?</h2>
+    <p>If you have any questions or face issues while donating, please reach out to us:</p>
+    <p><strong>Email:</strong> helpinghands@gmail.com</p>
+    <p><strong>Phone:</strong> +91 7397505121</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Helping Hands Foundation. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
